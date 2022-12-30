@@ -2,6 +2,10 @@
 
 Integrates Prometheus monitoring and the Grafana UI into the cluster.
 
+## Pre-Requisites
+
+1. CertManager
+
 ## Repository
 
 ```bash
