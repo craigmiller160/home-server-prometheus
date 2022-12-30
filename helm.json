@@ -1,0 +1,6 @@
+{
+  "name": "@craigmiller160/prometheus",
+  "version": "1.0.0",
+  "namespace": "prometheus",
+  "type": "application"
+}
