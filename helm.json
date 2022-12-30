@@ -2,5 +2,8 @@
   "name": "@craigmiller160/prometheus",
   "version": "1.0.0",
   "namespace": "prometheus",
-  "type": "application"
+  "type": "application",
+  "setValues": {
+    "kube-prometheus-stack.grafana.adminPassword": "$GRAFANA_ADMIN_PASSWORD"
+  }
 }
