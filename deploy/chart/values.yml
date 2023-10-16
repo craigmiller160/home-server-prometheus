@@ -6,7 +6,7 @@ kube-prometheus-stack:
       annotations:
         kubernetes.io/ingress.class: public
         cert-manager.io/cluster-issuer: letsencrypt-grafana
-        nginx.ingress.kubernetes.io/whitelist-source-range: 47.196.52.251/32
+        nginx.ingress.kubernetes.io/whitelist-source-range: 47.196.38.229/32
       hosts:
         - grafana-craigmiller160.ddns.net
       tls:
